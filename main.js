@@ -105,6 +105,7 @@ for (let i = 0; i < formData.length; i++) {
   let input;
   if (formData[i].type === "select") {
     input = document.createElement("select");
+    // for loop for options...
     let select = document.createElement("options");
 
 
